@@ -6,28 +6,42 @@ body{
     background-size: 1600px;
 }
 
+
+
+#parentNavbar{
+    background-color: #FFD4EE;
+    border-radius: 30px;
+    padding: auto;
+    top: 20px;
+}
+
 .logout-btn{
     width: 106px;
     height: 44px;
 }
 
 
+
+
 #main-content{
-    background-color: #fff;
+    background-color: #FFD4EE;
     border-radius: 30px; 
     box-shadow: 0px 4px 4px grey;
     height: 600px;
     padding: auto;
 }
+
+
+
 .nav-item:hover{
-    background-color: white;
+    background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
     border-radius: 30px;
 }
 
 #activeLink{
-    color: #F93939;
-    font-weight: 500;
+    color: #5b2cb8;
+    font-weight: 750;
 }
 #activeLink:hover{
     color: white;
@@ -37,26 +51,27 @@ body{
     background-color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    border: 1px solid #F93939;
+    border: 1px solid #5b2cb8;
 }
 .active:hover{
-    background-color: #F93939;
+    background-color: #5b2cb8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    border: 1px solid #F93939;
+    border: 1px solid #5b2cb8;
 }
 
 .table{
     background: #fff;
+    opacity: 0.8;
 }
 th{
     position: sticky;
-    top: 25%;
+    top: 20%;
 }
 caption{
     background-color: white;
     position: sticky;
-    padding-top: 0%;
+    padding-top: 2%;
     top: 0;
 }
 .caption-upper, .caption-lower{
@@ -86,13 +101,13 @@ caption{
     position: relative;
     width: 80px;
     height: 25px;
-    background-color: #898989;
+    background-color: #5b2cb8;
     border-radius: 45px;
     transition: 0.5s;
 }
 .logout-text{
     color: white;
-    font-weight: 500px;
+    font-weight: 1000px;
 }
 #field{
     width: 150px;
@@ -103,7 +118,7 @@ caption{
     width: 600px;
     max-width: 100%;
     height: 10%;
-    border: 2px solid #F93939;
+    border: 2px solid #5b2cb8;
     border-radius: 30px;
 }
 
@@ -115,7 +130,7 @@ caption{
     position: relative;
     width: 45px;
     height: 45px;
-    background-color: #88ABFC;
+    background-color: #5b2cb8;
     border-radius: 45px;
     transition: 0.5s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
@@ -130,7 +145,7 @@ caption{
     left: 0;
     width: 45px;
     height: 45px;
-    background-color: #88ABFC;
+    background-color: #5b2cb8;
     border-radius: 45px;
     display: flex;
     justify-content: center;
@@ -164,7 +179,7 @@ footer{
 
 #footer1 {
     font-size: 12px;
-    margin: 10px;
+    margin: 2px;
 }
 
 
@@ -258,7 +273,7 @@ footer{
     height: 50px; 
     border-radius: 50px; 
     display: flex; 
-    border: 1px solid #F93939;
+    border: 1px solid #5b2cb8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
     overflow: hidden;
 }
